@@ -1,0 +1,29 @@
+input {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    gap: 5px;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    border-color: slategray;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}

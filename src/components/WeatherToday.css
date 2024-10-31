@@ -1,0 +1,40 @@
+.WeatherToday {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.header, .content {
+    color: white;
+}
+
+.content {
+    border-radius: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.tempAtual {
+    font-size: 40px !important;
+    padding-right: 10px;
+}
+
+.content td {
+    font-size: 12px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
